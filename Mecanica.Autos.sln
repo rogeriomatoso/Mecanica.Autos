@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanica.Autos.Web", "Mecanica.Autos.Web\Mecanica.Autos.Web.csproj", "{5EAB854C-D475-4AC2-8ADC-6D4661864FD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{BA17962B-8067-41E5-9E0C-85695C38AF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanica.Autos.Dominio", "Mecanica.Autos.Dominio\Mecanica.Autos.Dominio.csproj", "{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{5D25311C-4FBE-452A-804B-3C93FA360416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanica.Autos.Dados.Entity", "Mecanica.Autos.Dados.Entity\Mecanica.Autos.Dados.Entity.csproj", "{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanica.Autos.Generica.Entity", "Mecanica.Autos.Generica.Entity\Mecanica.Autos.Generica.Entity.csproj", "{53C69B28-5647-4550-8043-C5A2AA00681A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAB854C-D475-4AC2-8ADC-6D4661864FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAB854C-D475-4AC2-8ADC-6D4661864FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAB854C-D475-4AC2-8ADC-6D4661864FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAB854C-D475-4AC2-8ADC-6D4661864FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C69B28-5647-4550-8043-C5A2AA00681A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C69B28-5647-4550-8043-C5A2AA00681A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C69B28-5647-4550-8043-C5A2AA00681A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C69B28-5647-4550-8043-C5A2AA00681A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EA997E5-E3FF-46D4-8A72-6E9A3FA23A21} = {BA17962B-8067-41E5-9E0C-85695C38AF44}
+		{03B12DA0-AAD3-45E8-98F2-645EB4B01F4A} = {5D25311C-4FBE-452A-804B-3C93FA360416}
+		{53C69B28-5647-4550-8043-C5A2AA00681A} = {5D25311C-4FBE-452A-804B-3C93FA360416}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85EDB700-C2BC-4CA4-AB58-1EE85734C231}
+	EndGlobalSection
+EndGlobal
